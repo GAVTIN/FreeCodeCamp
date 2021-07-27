@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+  background-color: #d6d6d6;
+}
+
+#header{
+    display: flex;
+    direction: ltr;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    min-height: 50px;
+    padding: 0px 20px;
+    margin-bottom: auto;
+    z-index: 1;
+}
+
+#header-img{
+    position: relative;
+    width: 20em;
+    padding-top: 1.5rem;
+}
+
+.nav-links{
+    font-size: 20px;
+    text-align: right;
+    padding-top: 2rem;
+    padding-left: 26rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 4rem;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+  }
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+#title{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 170px;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#form{
+    display: block;
+    text-align: center;
+    position: relative;
+    
+}
+
+#submit{
+    border-radius: 10px;
+}
+button{
+    background-color: #DCA90A; 
+    color: black; 
+    font-weight: 900; 
+    width:14rem; 
+    padding: 0.4rem; 
+    border: none; 
+    font-size: 16px; 
+    text-align: center;
+    border-radius: 7px;
+
+}
+
+button:hover{
+    background-color: darkorange;
+    border-radius: 5px;
+}
+.flx{
+    display: flex;
+}
+
+.flx .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+  }
+
+  #how-it-works{
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+  }
+  iframe{
+      width:36rem;
+  }
+
+
+  .box{
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .box > .prc{
+      display: flex;
+    flex-direction: column; 
+    flex-basis: 30%; }
+
+.prc{
+    border: 1px solid black;
+    text-align: center;
+}
+section > #pricing > .box > h2 > :first-child{
+    background-color: #C6C6C6;
+    z-index: 2;
+}
+
+.prc > p{
+    justify-content:space-between ;
+}
+
+.btn{
+    border: none;
+    background-color: #DCA90A;
+    padding: 15px;
+    width: 7rem;
+    margin: 28px auto;
+}
+
+.ftr{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blc{
+    background-color: #B1B1B1;
+}
+
+@media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+
